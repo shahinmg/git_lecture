@@ -39,3 +39,15 @@ def sphere_volume(radius):
   
   return volume
 ```
+
+The same function but with the zero radius condition commented out
+```
+def sphere_volume_wrong(radius):
+  
+  # if radius < 0:
+  #   raise ValueError("Radius cannot be negative.")
+    
+  volume = (4/3) * math.pi * (radius ** 3)
+  
+  return volume
+```
