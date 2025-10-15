@@ -51,3 +51,8 @@ def sphere_volume_wrong(radius):
   
   return volume
 ```
+
+git revert to a previous commit
+```
+git revert --no-commit <commit-id>..HEAD
+```
