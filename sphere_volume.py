@@ -25,3 +25,8 @@ def sphere_volume_wrong(radius):
   return volume
 
 
+def broken_func(radius):
+    
+    volume_wrong = (4/3) * math.pi * (radius ** 3) ** 5
+    
+    return volume_wrong
