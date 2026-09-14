@@ -2,6 +2,8 @@
 
 Some commands to easily copy and paste
 
+Slides are [here](https://docs.google.com/presentation/d/1MkCPWBuzkbIhUDLKpUXLQZRK6JbxOPtadPqBIEi1ABY/edit?usp=sharing)
+
 ## Follow along (optional)
 
 If you want to follow along please install git. If you are on windows I advise using miniconda. Follow the installation instructions [here](https://github.com/shahinmg/git_lecture.git) to install conda. 
