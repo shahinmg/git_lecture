@@ -2,6 +2,43 @@
 
 Some commands to easily copy and paste
 
+## Follow along
+
+If you want to follow along please install git. If you are on windows I advise using miniconda. Follow the installation instructions [here](https://github.com/shahinmg/git_lecture.git) to install conda. 
+
+In a conda environment (not your base env) install git
+
+```
+conda install -c conda-forge git
+```
+
+If you have not created an environment in the terminal before, please create a new environment 
+
+```
+conda create -n git_lecture -c conda-forge python=3.13 git -y
+```
+
+Breif explanation of conda create command 
+
+
+| Flag / argument | Meaning |
+|---|---|
+| `conda create` | create a new virtual environment in conda |
+| `-n git_lecture` | Short for `--name`. Names the environment `git_lecture` |
+| `python=3.13` | specify the version of python you want |
+| `-c conda-forge` | Short for `--channel`. conda-forge is a channel where you can install software from and is maintained by the open-source community |
+| `git` | installs the package git |
+| `-y` | Short for `--yes`. Skips the "Proceed ([y]/n)?" prompt |
+
+
+
+Then activate the new environment
+
+```
+conda activate git_lecture
+```
+
+
 ## git config
 ```
 git config --global user.name "Your Name"
